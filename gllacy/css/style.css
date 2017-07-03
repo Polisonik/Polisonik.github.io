@@ -155,7 +155,7 @@ img {
     padding-bottom: 7px;
     font-weight: 400;
 }
-  .main-submenu a::after {
+.main-submenu a::after {
     display: none;
 }
 .main-submenu a[href]:hover {
@@ -174,7 +174,6 @@ img {
     padding-bottom: 14px;
 }
 .main-submenu .novelty::after {
-    display: block;
     position: absolute;
     content: "";
     height: 1px;
@@ -1841,7 +1840,7 @@ body > input[type="radio"] {
     padding-left: 32px;
     vertical-align: middle;
 }
-/*.topping-item input[type="checkbox"] + label::before {
+.topping-item input[type="checkbox"] + label::before {
     position: absolute;
     content: "";
     top: 0px;
@@ -1852,19 +1851,16 @@ body > input[type="radio"] {
     height: 18px;
     border: 1px solid #fff;
     border-radius: 3px;
-}*/
+}
 .topping-item input[type="checkbox"] + label:hover::before {
     box-shadow: 0 0 0 1px #fff;
     cursor: pointer;
 }
 .topping-item input[type="checkbox"]:checked + label::before {
-    /*background: url("../img/check.png") no-repeat 50%;*/
-  color: red;
-  background-color: yellow;
+    background: url("../img/check.png") no-repeat 50%;
 }
 .topping-item input[type="checkbox"]:checked + label:hover::before {
-   color: blue;
-  background-color: green;
+    box-shadow: 0 0 0 1px #fff;
 }
 .topping-item input[type="checkbox"]:disabled + label::before {
     opacity: 0.4;
